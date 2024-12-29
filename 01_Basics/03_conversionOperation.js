@@ -1,10 +1,10 @@
 // sometimes we work on backend and we dont know the value sent by frontend its datatype etc , so we use // "TYPE"
 
- let score = 33;
+let score = 33;
 
- let valaueInNumber = Number(score) // we write number(Capital) for conversion
- console.log(typeof valaueInNumber )
- console.log(valaueInNumber )
+let valaueInNumber = Number(score) // we write number(Capital) for conversion
+console.log(typeof valaueInNumber )
+console.log(valaueInNumber )
 
 // "33" => 33
 // "33abc" => NaN(not a number)
