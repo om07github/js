@@ -28,10 +28,10 @@ const obj4 = {5: "a", 6: "b"}
 
 
 //to add two objects
-const obj3 = { obj1, obj2 }
-const obj3 = Object.assign({}, obj1, obj2, obj4)
-const obj3 = {...obj1, ...obj2}
-// console.log(obj3);
+// const obj3 = { obj1, obj2 }
+// const obj3 = Object.assign({}, obj1, obj2, obj4)
+// const obj3 = {...obj1, ...obj2}
+// // console.log(obj3);
 
 
 const users = [
@@ -81,11 +81,11 @@ console.log(instructor);
 
 /* How Json object is created here key is defines as strings */
 
-{
-    "name": "hitesh",
-    "coursename": "js in hindi",
-    "price": "free"
-}
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
 
 //Sometimes JSON are defined as array 
 [
