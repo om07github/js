@@ -26,11 +26,11 @@ const addTwo = (num1, num2) => {
     return num1+num2
 }
 
-if there  is only 1 line inside a function
-const addTwo = (num1,num2) => num1 + num2;
-const addTwo = (num1,num2) => (num1 + num2); // CAn be use like this
+// if there  is only 1 line inside a function
+// const addTwo = (num1,num2) => num1 + num2;
+// const addTwo = (num1,num2) => (num1 + num2); // CAn be use like this
 
-const addTwo = (num1, num2) => ({username: "hitesh"}) // object can be ue like this only
+// const addTwo = (num1, num2) => ({username: "hitesh"}) // object can be ue like this only
 
 
 
