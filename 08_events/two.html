@@ -10,18 +10,15 @@
     <button id="stop">Stop</button>
 </body>
 <script>
-    const sayHitesh = function(){
-        console.log("Hitesh");
-    }
     const changeText = function(){
-        document.querySelector('h1').innerHTML = "best JS series"
+        document.querySelector('h1').innerHTML = 'Hi its Om'
     }
 
-    const changeMe = setTimeout(changeText, 2000)
+    const changeMe = setTimeout(changeText,1000)//only refernce taken not function
 
     document.querySelector('#stop').addEventListener('click', function(){
+        console.log('TimeOut')
         clearTimeout(changeMe)
-        console.log("STOPPED")
     })
 </script>
 </html>
