@@ -10,6 +10,13 @@
 // this all objects get injected
 
 
+// prototype behaviour
+// prototypal inheritance
+
+// evaluatied expression {}
+
+
+
 let myHeros = ["thor", "spiderman"]
 
 
