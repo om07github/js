@@ -33,7 +33,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = {...obj1, ...obj2}
 // // console.log(obj3);
 
-
+//when the data comes from database it comes in the form of arrays 
 const users = [
     {
         id: 1,
@@ -52,8 +52,8 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
- console.log(Object.keys(tinderUser));//return key
- console.log(Object.values(tinderUser));//return value
+ console.log(Object.keys(tinderUser));//return key in array datatype
+ console.log(Object.values(tinderUser));//return value in array datatype
  console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));// check present or not

@@ -1,7 +1,7 @@
 /* # Primitive */ 
 //Call by value(Creates a copy to use)
 
-// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+// 8 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 /* type of datatype*/
 // null => object
@@ -23,7 +23,13 @@ const myFunction = function(){
 }
 console.log(typeof heroes);
 
-
+//JavaScript is a dynamically typed language.
+/**\
+  Dynamic typing means you don’t have to declare variable types explicitly.
+  The type is determined at runtime, not during compilation.
+  You can assign different types of values to the same variable during execution.
+  In contrast, a statically typed language (like Java or C++) would not allow changing types like that without explicit casting or declaration.
+ */
 
 /************************************************************/
 

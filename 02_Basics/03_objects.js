@@ -1,8 +1,16 @@
-// singleton
+// singleton(Singleton means creating only one single object that is reused everywhere in the program.)
 // Object.create
-// Constructor objects: By default, each call creates a new instance unless you enforce a singleton pattern explicitly.
-// Literal objects: Are inherently singleton as long as the same literal is reused. Redefining creates separate instances.
 
+// Constructor objects: By default, each call creates a new instance unless you enforce a singleton pattern explicitly.
+/**Used when you want to create many objects with the same structure.
+new keyword creates a new object using the constructor. */
+
+
+// Literal objects: Are inherently singleton as long as the same literal is reused. Redefining creates separate instances.
+/*
+Used when you just want a simple object.
+No need for functions or blueprints.
+ */
 
 
 // object literals
@@ -19,7 +27,7 @@ const JsUser = {
 
 console.log(JsUser.name);
 console.log(JsUser["name"]);// write as a string cause it is treated as string
-console.log(JsUser["fullname"]);//we can access it using "." operator
+console.log(JsUser["fullname"]);//we cant access it using "." operator
 
 
 Object.freeze(JsUser) //use to freeze object now no changes can be done

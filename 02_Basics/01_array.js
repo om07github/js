@@ -29,15 +29,15 @@ console.log(typeof newArray); //string type
 //Slice and Splice
 //  slice :- gives portion of array as outpout without making changes in 
 // original Array
-// splic => gives portion of array as output and also change the original array
+// splice => gives portion of array as output and also change the original array
 
 console.log("A ", myArray);
 
 const myn1 = myArray.slice(1,3);
-console.log(myn1);
+console.log(myn1);// includes elements 1 and 2 not 3
 
 const myn2 = myArray.splice(1,3);
-console.log(myn2);
+console.log(myn2); // includes elements 1,2 and 3
 
 
 

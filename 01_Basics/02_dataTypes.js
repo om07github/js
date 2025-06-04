@@ -1,6 +1,6 @@
 "Use Strict";  //treat all JS code a s newer version 
 
-// alert(3+3); //wde are using nodejs not browser not works here
+// alert(3+3); //we are using nodejs not browser not works here
 
 // tc39.es // use to write standards in javascript
 
@@ -15,7 +15,7 @@ let record = null // not undefined
 //bigint
 // string => ""
 // boolean => true/false
-// null=> standalone value
+// null=> standalone value(empty)
 // undefined=> varibale is declared but value not defined
 // symbol => unique Ex:-(use in react to specify the uniquenss in components)
 

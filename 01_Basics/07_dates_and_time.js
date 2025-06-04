@@ -1,6 +1,9 @@
-//Date objects encapsulate an integral number that represents milliseconds since the midnight at the beginning of January 1, 1970
+/*
+Date objects encapsulate an integral number that represents milliseconds 
+since the midnight at the beginning of January 1, 1970
+*/
 
-// let myDate = new Date()
+// let myDate = new Date() // here date object is created or an instance 
 // console.log(typeof myDate); //object
 // console.log(myDate); //2024-12-29T04:10:02.983Z
 // console.log(myDate.toString());
@@ -30,3 +33,4 @@ console.log(newDate.getDate());
 newDate.toLocaleString('default', {
     weekday:"long"
 })
+//use ctrl+space to get properties of objecgtg in vs code 

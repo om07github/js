@@ -10,7 +10,7 @@ const allHeros = hero1.concat(hero2)
 console.log(allHeros);
 
 //another method to add arrays (Here we can add more than 2 array at a time)
-const heros = [...hero1, ...hero2]
+const heros = [...hero1, ...hero2]// spread operator
 console.log(heros);
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
@@ -22,7 +22,7 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Om")) //checks if array or not
 console.log(Array.from("Om"))// to convert into array
-console.log(Array.from({name: "hitesh"})) // interesting(cause we have nit specufued that to make an array form keys or value)
+console.log(Array.from({name: "hitesh"})) // interesting(cause we have not specified that to make an array form keys or value)
 
 let score1 = 100
 let score2 = 200
