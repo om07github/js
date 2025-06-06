@@ -29,7 +29,7 @@ function addone(num){
 
 
 
-addTwo(5) // this doesn't gives output , it gives error
+addTwo(5) // this doesn't gives output , it gives error, because here varible is used 
 const addTwo = function(num){
     return num + 2
 }

@@ -1,3 +1,14 @@
+/*
+Compilation Time (Before Running)
+This is when your code is checked and converted into machine-readable code (0s and 1s).
+*/
+
+/*
+Runtime (While Running)
+This is when your program is actually running.
+The code is executed line by line.
+*/
+
 function myName(){
     return "love"
 }
@@ -5,13 +16,16 @@ function myName(){
 const result = myName()
 console.log(result)
 
-
+//JavaScript is a dynamically typed language, so it automatically figures out the data type at runtime.
+//In JavaScript, you do not specify data types for function arguments.
 function addNumber(num1, num2){//parameters included
     console.log(`Addition is ${num1+num2}`)
 }
 
-addNumber() //arguments
+//Parameters and arguments are diff
 
+addNumber() //arguments                                                                                                          
+//if we dont write any argument in function call then while accesing that value will give undefined as an answer
 
 
 //"..." operator called as spread and rest operator
@@ -19,7 +33,7 @@ addNumber() //arguments
 //all 3 elements are packed in package and then send
 function cartPrice(...num1){
     return num1
-}
+}// output array[200,300,400,500,600]
 function cartPrice(val1, val2, ...num1){ //here val1 and val2 get 1 element each and rest to num1
     return num1
 }
@@ -52,5 +66,5 @@ function returnValue(getArray){
 }
 
 //console.log(returnValue(myNewarray))
-console.log([900,100,200]);
+console.log(returnValue([900,100,200]));
 
