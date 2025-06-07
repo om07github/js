@@ -34,12 +34,14 @@
     // document.getElementById('images').addEventListener('click', function(e){
     //     console.log("clicked inside the ul");
     // }, false)
-
+    
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+    //     e.stopPropagation()// stop event propogation
     // }, false)
-    
+    //Event propogation or called as event bubbling triggers event from lower to upper image to li to ulbottom to top
+    //if in place false write true then capyuring mode get actiated then ul to li and so on top to bottom
+
     // document.getElementById('google').addEventListener('click',function(e){
     //     e.preventDefault();
     //     e.stopPropagation()
@@ -47,17 +49,27 @@
     // }, false)
    
     
-    document.querySelector('#images').addEventListener('click', function(e){
+    // document.querySelector('#images').addEventListener('click', function(e){
+    //     console.log(e.target.tagName);
+    //     if (e.target.tagName === 'IMG') {
+    //         console.log(e.target.id);
+    //         let removeIt = e.target.parentNode
+    //         removeIt.remove()
+    //     }   
+    // })
+    
+
+    document.getElementById('images').addEventListener('click', function(e){
         console.log(e.target.tagName);
-        if (e.target.tagName === 'IMG') {
-            console.log(e.target.id);
-            let removeIt = e.target.parentNode
-            removeIt.remove()
+        if(e.target.tagName == 'IMG'){
+            let removeIt  = e.target.parentNode
+            removeIt.remove();
         }
-    
-        
     })
-    
+
+    document.getElementById('google').addEventListener('click', function(e){
+        e.preventDefault();
+    })
     //removeIt.parentNode.removeChild(removeIt)
 </script>
 </html>
